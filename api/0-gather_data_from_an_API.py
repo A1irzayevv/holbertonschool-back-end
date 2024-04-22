@@ -27,7 +27,7 @@ def get_todo_rest_api(id):
     print(f"Employee {name} is done with tasks ({completed}/{total_tasks}):")
     for todo in todos_data:
         if todo.get('completed', False):
-            print(f"\t{todo['title']}")
+            print("\t" + f"{todo['title']}")
 
 
 if __name__ == "__main__":
