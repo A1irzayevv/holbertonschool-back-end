@@ -30,6 +30,6 @@ def get_todo_rest_api(id):
             print("\t" + " " + f"{todo['title']}")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__-":
     id = int(sys.argv[1])
     get_todo_rest_api(id)
