@@ -30,6 +30,6 @@ def get_todo_rest_api(id):
             csvfile.write(f'"{id}","{name}","{task_completed}","{title}"\n')
 
 
-if __name__ == "__main__-":
+if __name__ == "__main__":
     id = int(sys.argv[1])
     get_todo_rest_api(id)
