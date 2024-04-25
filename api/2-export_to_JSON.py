@@ -3,8 +3,8 @@
 task 2
 """
 import json
-import sys
 import requests
+import sys
 
 
 def save_to_json(id):
