@@ -2,9 +2,9 @@
 """
 task 2
 """
-import requests
-import sys
 import json
+import sys
+import requests
 
 
 def save_to_json(id):
