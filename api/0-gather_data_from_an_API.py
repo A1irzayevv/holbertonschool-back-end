@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-first rest api code
+task 0
 """
 import requests
 import sys
@@ -31,6 +31,6 @@ def get_todo_rest_api(id):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
+    if len(sys.argv) == 2:
         id = int(sys.argv[1])
         get_todo_rest_api(id)
