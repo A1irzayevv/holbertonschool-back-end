@@ -15,7 +15,7 @@ def save_to_csv(id):
     user_data = response.json()
 
     name = user_data['username']
- 
+
     todo_url = f"{url}/todos?userId={id}"
 
     response = requests.get(todo_url)
